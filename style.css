@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: none; */
+    outline: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 255, 0.792);
+    overflow: hidden;
+}
+
+.container{
+    width: 25rem;
+    height: 25rem; /*change this one*/
+    color: rebeccapurple;
+    background-color:white;
+    padding: 10px ;
+    box-shadow: 0 4px 30px  rgba(214, 204, 13);    
+}
+
+.container h1{
+    font-size: 1.6;
+    text-align: center;
+    color: rebeccapurple;
+}
+.container form{
+    margin: 10px 10px;
+    margin-left: 5%;    
+}
+.container form p{
+    margin-bottom: 6px;
+    font-size: 1rem;
+}
+.container form input{
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0 15px;
+    background: transparent;
+    color: rgb(73, 17, 227);
+    border: 1px solid rgb(128, 111, 213);
+}
+
+.container form .convert-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.container form .from, .container form .to{
+    width: 100%;
+    height: 5rem;
+}
+.container form .convert-box .select-input{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid rgb(82, 78, 188); */
+    height: 40px;
+    align-items: center;
+}
+.container .convert-box .select-input img{
+    max-width:  32px;
+}
+.container .convert-box .select-input select{
+    width: 100%;
+    background: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_class{
+    background-color: rgba(96, 96, 211, 0.792);
+    width: 50%;
+    height: 5vh;
+    margin-top: 8px;
+    
+    /* margin-right: 2px; */
+}
+.reverse{
+    transform: rotate(90deg);
+}
+
